@@ -8,5 +8,5 @@ st.markdown ('#This is the main page...')
 st.sidebar.write('main page')
 
 import pandas as pd
-df = pd.read_excel('sampledata.xlsx')
+df = pd.read_csv('banking.csv')
 st.dataframe(df)
